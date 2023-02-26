@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="4" assertions="4" errors="0" failures="0" skipped="0" time="0.007476">
+    <testsuite name="Unit" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.006192">
+      <testsuite name="JasterTDC\PriceHistory\Tests\Shared\Domain\NameTest" file="/code/test/Shared/Domain/NameTest.php" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.006192">
+        <testcase name="testShouldCreateName" file="/code/test/Shared/Domain/NameTest.php" line="13" class="JasterTDC\PriceHistory\Tests\Shared\Domain\NameTest" classname="JasterTDC.PriceHistory.Tests.Shared.Domain.NameTest" assertions="1" time="0.004883"/>
+        <testcase name="testShouldThrowExceptionWhenNameIsEmpty" file="/code/test/Shared/Domain/NameTest.php" line="20" class="JasterTDC\PriceHistory\Tests\Shared\Domain\NameTest" classname="JasterTDC.PriceHistory.Tests.Shared.Domain.NameTest" assertions="1" time="0.001309"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="UnitIntegration" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.001284">
+      <testsuite name="JasterTDC\PriceHistory\Tests\Shared\Domain\NameTest" file="/code/test/Shared/Domain/NameTest.php" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.001284">
+        <testcase name="testShouldCreateName" file="/code/test/Shared/Domain/NameTest.php" line="13" class="JasterTDC\PriceHistory\Tests\Shared\Domain\NameTest" classname="JasterTDC.PriceHistory.Tests.Shared.Domain.NameTest" assertions="1" time="0.000539"/>
+        <testcase name="testShouldThrowExceptionWhenNameIsEmpty" file="/code/test/Shared/Domain/NameTest.php" line="20" class="JasterTDC\PriceHistory\Tests\Shared\Domain\NameTest" classname="JasterTDC.PriceHistory.Tests.Shared.Domain.NameTest" assertions="1" time="0.000745"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
