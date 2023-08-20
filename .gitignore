@@ -1,4 +1,6 @@
 .phpunit/*
 .phpunit.cache/*
 .phpunit
+.phpunit.result.cache
+.infection
 vendor/*
