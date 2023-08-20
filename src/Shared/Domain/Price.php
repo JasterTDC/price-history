@@ -2,14 +2,6 @@
 
 namespace JasterTDC\PriceHistory\Shared\Domain;
 
-final class Price
+final readonly class Price extends FloatValueObject
 {
-    public function __construct(private float $value)
-    {
-    }
-
-    public function value(): float
-    {
-        return $this->value;
-    }
 }
