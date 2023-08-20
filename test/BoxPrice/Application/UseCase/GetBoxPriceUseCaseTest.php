@@ -1,6 +1,6 @@
 <?php
 
-namespace JasterTDC\PriceHistory\Tests\Box\Application\UseCase;
+namespace JasterTDC\PriceHistory\Tests\BoxPrice\Application\UseCase;
 
 use InvalidArgumentException;
 use JasterTDC\PriceHistory\BoxPrice\Application\UseCase\GetBoxPriceUseCase;
