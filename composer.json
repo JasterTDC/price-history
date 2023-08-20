@@ -1,8 +1,4 @@
 {
-    "require-dev": {
-        "phpunit/phpunit": "^10",
-        "infection/infection": "^0.26"
-    },
     "autoload": {
         "psr-4": {
             "JasterTDC\\PriceHistory\\": "src/",
@@ -15,6 +11,7 @@
         }
     },
     "require": {
-        "ramsey/uuid": "^4"
+        "phpunit/phpunit": "^9",
+        "infection/infection": "^0.26"
     }
 }
