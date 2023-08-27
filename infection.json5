@@ -15,5 +15,7 @@
     },
     "mutators": {
         "@default": true
-    }
+    },
+    "testFramework":"phpunit",
+    "testFrameworkOptions": "--testsuite=Unit --no-coverage"
 }
