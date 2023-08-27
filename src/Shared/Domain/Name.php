@@ -6,7 +6,7 @@ namespace JasterTDC\PriceHistory\Shared\Domain;
 
 use JasterTDC\PriceHistory\Shared\Domain\Exception\InvalidName;
 
-class Name extends StringValueObject
+final readonly class Name extends StringValueObject
 {
     public function __construct(string $value)
     {

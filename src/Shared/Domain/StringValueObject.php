@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace JasterTDC\PriceHistory\Shared\Domain;
 
-class StringValueObject
+readonly class StringValueObject
 {
     public function __construct(protected string $value)
     {
