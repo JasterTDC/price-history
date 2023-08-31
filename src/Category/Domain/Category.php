@@ -34,4 +34,9 @@ final readonly class Category
     {
         return $this->parentCategory;
     }
+
+    public function parentCategoryId(): ?int
+    {
+        return $this->parentCategory?->idValue();
+    }
 }
