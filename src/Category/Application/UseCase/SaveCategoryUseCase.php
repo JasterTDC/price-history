@@ -2,6 +2,7 @@
 
 namespace JasterTDC\PriceHistory\Category\Application\UseCase;
 
+use JasterTDC\PriceHistory\Category\Domain\Category;
 use JasterTDC\PriceHistory\Category\Domain\Repository\CategoryRepository;
 use JasterTDC\PriceHistory\Category\Domain\Service\CategoryService;
 
