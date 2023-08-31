@@ -23,9 +23,9 @@ final readonly class SaveCategoryUseCase
         /** @var Category $category */
         foreach ($categories as $category) {
             if (!empty($category->parentCategory())) {
-                $categoriesToSave[] = $category->parentCategory();
+                $categoriesToSave[$category->parentCategoryId()] = $category->parentCategory();
             }
-            $categoriesToSave[] = $category;
+            $categoriesToSave[$category->idValue()] = $category;
         }
 
         $this->repository->save(...$categoriesToSave);

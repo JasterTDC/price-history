@@ -2,7 +2,7 @@
 
 namespace JasterTDC\PriceHistory\Category\Domain\Repository;
 
-use Category;
+use JasterTDC\PriceHistory\Category\Domain\Category;
 
 interface CategoryRepository
 {
