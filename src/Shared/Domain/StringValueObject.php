@@ -8,7 +8,6 @@ readonly class StringValueObject
 {
     public function __construct(protected string $value)
     {
-        $this->value = $value;
     }
 
     public function value(): string
