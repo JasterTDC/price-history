@@ -61,29 +61,25 @@ final class SaveCategoryUseCaseTest extends TestCase
             primitiveFriendlyName: 'Blu-ray Films'
         );
 
-        $categories = [
-            $ps4GamesCategory,
-            $ps5GamesCategory,
-            $bluRayFilmsCategory,
-        ];
-
-        $categoriesToInsert = [
-            $gameCategory,
-            $ps4GamesCategory,
-            $ps5GamesCategory,
-            $filmCategory,
-            $bluRayFilmsCategory,
-        ];
-
         return [
             'first page' => [
                 'categoryService' => $this->categoryService(
                     page: 1,
-                    categories: $categories
+                    categories: [
+                        $ps4GamesCategory,
+                        $ps5GamesCategory,
+                        $bluRayFilmsCategory,
+                    ]
                 ),
                 'categoryRepository' => $this->categoryRepository(
                     numberOfCategories: 5,
-                    categories: $categoriesToInsert
+                    categories: [
+                        $gameCategory,
+                        $ps4GamesCategory,
+                        $ps5GamesCategory,
+                        $filmCategory,
+                        $bluRayFilmsCategory,
+                    ]
                 ),
                 'page' => 1,
             ],
