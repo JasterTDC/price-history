@@ -21,6 +21,9 @@ composer-remove: ## Remove composer dependencies
 composer-do: ## Run composer dump-autoload
 	${COMPOSER} dump-autoload
 
+composer-install: ## Run composer install
+	${COMPOSER} install
+
 ## PHP Unit
 coverage: ## Run phpunit
 	docker run --rm -v ${PWD}:/code -w /code ${IMAGE} /code/vendor/bin/phpunit

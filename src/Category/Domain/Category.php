@@ -1,5 +1,7 @@
 <?php
 
+namespace JasterTDC\PriceHistory\Category\Domain;
+
 use JasterTDC\PriceHistory\Shared\Domain\CategoryId;
 use JasterTDC\PriceHistory\Shared\Domain\Name;
 
@@ -31,5 +33,10 @@ final readonly class Category
     public function parentCategory(): ?Category
     {
         return $this->parentCategory;
+    }
+
+    public function parentCategoryId(): ?int
+    {
+        return $this->parentCategory?->idValue();
     }
 }

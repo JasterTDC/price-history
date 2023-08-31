@@ -1,8 +1,7 @@
 <?php
 
-namespace JasterTDC\PriceHistory\Box\Domain\Factory;
+namespace JasterTDC\PriceHistory\Category\Domain\Factory;
 
-use Category;
 use JasterTDC\PriceHistory\Shared\Domain\CategoryId;
 use JasterTDC\PriceHistory\Shared\Domain\Name;
 
